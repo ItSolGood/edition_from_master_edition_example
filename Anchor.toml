@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+edition_from_master_edition_example = "qrfTvAPCDZ1KMDVMg8VsYyGXwspwPfbeZmaTfSPypvj"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/morty/.config/solana/id.json"
+
+[scripts]
+test = "node tests/edition_from_master_edition_example.js"
